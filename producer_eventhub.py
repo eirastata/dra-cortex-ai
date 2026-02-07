@@ -1,0 +1,3 @@
+import os
+
+CONNECTION_STR = os.getenv("EVENTHUB_CONNECTION")

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dra. Cortex AI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* ================= BASE ================= */
+
+*{
+    font-family:'Montserrat',sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+    background:linear-gradient(135deg,#014f4f,#0a8a7a);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+
+/* ================= CARD ================= */
+
+.card{
+    background:white;
+    width:100%;
+    max-width:420px;
+    padding:28px;
+    border-radius:18px;
+    box-shadow:0 20px 45px rgba(0,0,0,.25);
+    text-align:center;
+}
+
+h1{
+    color:#0a6b63;
+}
+
+
+/* ================= VIDEO ================= */
+
+.cortex-box{
+    width:140px;
+    height:140px;
+    margin:15px auto;
+    border-radius:50%;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 0 20px rgba(10,138,122,.6);
+}
+
+.cortex-video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+/* ================= FORM ================= */
+
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin-top:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+textarea{
+    height:90px;
+    resize:none;
+}
+
+button{
+    width:100%;
+    margin-top:18px;
+    padding:12px;
+    background:#0a6b63;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#095c55;
+}
+
+
+/* ================= RESULT ================= */
+
+#resultado{
+    margin-top:18px;
+    text-align:left;
+    line-height:1.6;
+    font-size:15px;
+}
+
+.alerta{
+    background:#ffeaea;
+    color:#c0392b;
+    padding:12px;
+    border-radius:10px;
+    margin-top:12px;
+    font-weight:600;
+}
+
+.status{
+    color:#0a6b63;
+    font-weight:600;
+}
+
+.erro{
+    color:#c0392b;
+    font-weight:600;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #eee;
+    margin:12px 0;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="card">
+
+<h1>🧠 Dra. Cortex AI</h1>
+
+<div class="cortex-box">
+    <video
+        id="video"
+        class="cortex-video"
+        muted
+        playsinline
+        preload="auto"
+    ></video>
+</div>
+
+<p>Vou te ajudar a entender seus sintomas.</p>
+
+<input id="nome" placeholder="Digite seu nome">
+<input id="idade" type="number" placeholder="Sua idade">
+<textarea id="sintomas" placeholder="Descreva seus sintomas..."></textarea>
+
+<button onclick="analisar()">Analisar</button>
+
+<div id="resultado"></div>
+
+</div>
+
+
+<script>
+
+/* ================= CONFIG ================= */
+
+const V = {
+    intro: "/static/videos/intro.mp4",
+    thinking: "/static/videos/thinking.mp4",
+    talking: "/static/videos/talking.mp4",
+    idle: "/static/videos/idle.mp4",
+    error: "/static/videos/error.mp4"
+};
+
+
+const video = document.getElementById("video");
+const resultado = document.getElementById("resultado");
+
+let liberadoMobile = false;
+
+
+/* ================= VIDEO ================= */
+
+function playVideo(src, loop=true){
+
+    video.pause();
+
+    video.src = src + "?v=" + Date.now();
+    video.loop = loop;
+
+    video.load();
+
+    setTimeout(()=>{
+        video.play().catch(()=>{});
+    },150);
+}
+
+
+/* ================= START ================= */
+
+window.addEventListener("load",()=>{
+
+    playVideo(V.intro,true);
+
+    document.body.addEventListener("click",()=>{
+
+        if(!liberadoMobile){
+            video.play().catch(()=>{});
+            liberadoMobile = true;
+        }
+
+    },{once:true});
+});
+
+
+/* ================= ANALISAR ================= */
+
+async function analisar(){
+
+    const nome     = getNome();
+    const idade    = getIdade();
+    const sintomas = getSintomas();
+
+    if(!nome || !idade || !sintomas){
+        alert("Preencha todos os campos.");
+        return;
+    }
+
+    resultado.innerHTML = `<p class="status">🔍 Analisando sintomas...</p>`;
+
+    playVideo(V.thinking,true);
+
+
+    try{
+
+        const r = await fetch("/sintomas/prever",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify({
+                texto:sintomas
+            })
+        });
+
+
+        if(!r.ok){
+            throw new Error("HTTP " + r.status);
+        }
+
+
+        const data = await r.json();
+
+        playVideo(V.talking,false);
+
+
+        const principal = data.principal;
+        const top3 = data.top3;
+
+
+        const doencasGraves = [
+            "Infarto",
+            "AVC",
+            "Pneumonia",
+            "Covid-19",
+            "Sepse",
+            "Embolia"
+        ];
+
+        let alerta = "";
+
+        if(doencasGraves.includes(principal.doenca)){
+            alerta = `
+                <div class="alerta">
+                ⚠️ Procure atendimento médico imediatamente.
+                </div>
+            `;
+        }
+
+
+        let lista = "";
+
+        top3.forEach((d,i)=>{
+            lista += `
+                <li>${i+1}. ${d.doenca} — ${d.confianca}%</li>
+            `;
+        });
+
+
+        resultado.innerHTML = `
+
+        <h3>📋 Resultado da Análise</h3>
+
+        <p><b>Paciente:</b> ${nome} (${idade} anos)</p>
+
+        <hr>
+
+        <h4>🩺 Diagnóstico Principal</h4>
+
+        <p style="font-size:17px;">
+            <b>${principal.doenca}</b> (${principal.confianca}%)
+        </p>
+
+        ${alerta}
+
+        <hr>
+
+        <h4>📊 Outras Possibilidades</h4>
+
+        <ul>
+            ${lista}
+        </ul>
+
+        <p style="margin-top:10px;color:#555;font-size:13px;">
+        ⚠️ Esta análise é apenas informativa e não substitui avaliação médica.
+        </p>
+
+        `;
+
+
+        setTimeout(()=>{
+            playVideo(V.idle,true);
+        },6000);
+
+
+    }catch(e){
+
+        console.error(e);
+
+        playVideo(V.error,true);
+
+        resultado.innerHTML = `
+            <p class="erro">
+            ❌ Erro ao realizar análise. Tente novamente.
+            </p>
+        `;
+    }
+
+}
+
+
+/* ================= INPUTS ================= */
+
+function getNome(){
+    return document.getElementById("nome").value.trim();
+}
+
+function getIdade(){
+    return document.getElementById("idade").value.trim();
+}
+
+function getSintomas(){
+    return document.getElementById("sintomas").value.trim();
+}
+
+</script>
+
+</body>
+</html>

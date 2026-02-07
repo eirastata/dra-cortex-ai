@@ -1,0 +1,241 @@
+doenca,texto,gravidade,urgencia,especialidade,orientacao
+Infarto,"Sinto tontura, falta de ar, nausea há dias",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Tenho sentido falta de ar, tontura",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Estou com tontura, nausea, suor frio",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Ando com dor no braço, nausea, suor frio, tontura recentemente",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Venho apresentando dor no peito, falta de ar, tontura, suor frio",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Estou com nausea, suor frio",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Tenho sentido suor frio, dor no braço",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Sinto falta de ar, dor no braço, nausea, dor no peito há dias",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Ando com nausea, dor no braço recentemente",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Sinto falta de ar, dor no braço, nausea há dias",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Venho apresentando suor frio, falta de ar, nausea, tontura",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Estou com dor no braço, dor no peito",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Apresento nausea, dor no braço, falta de ar, suor frio",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Apresento dor no peito, falta de ar, dor no braço",alta,sim,Cardiologia,Procure emergência imediatamente
+Infarto,"Venho apresentando dor no peito, tontura, falta de ar, dor no braço, nausea",alta,sim,Cardiologia,Procure emergência imediatamente
+Otite,"Estou com febre leve, dor no ouvido, coceira",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Venho apresentando dor no ouvido, coceira, ouvido tampado",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Sinto dor no ouvido, ouvido tampado, febre leve, secrecao há dias",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Apresento dor no ouvido, coceira, febre leve",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Venho apresentando secrecao, dor no ouvido",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Sinto dor no ouvido, secrecao, febre leve, ouvido tampado, coceira há dias",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Sinto febre leve, secrecao, ouvido tampado, dor no ouvido há dias",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Tenho sentido ouvido tampado, dor no ouvido",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Sinto coceira, secrecao, dor no ouvido, ouvido tampado há dias",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Venho apresentando febre leve, dor no ouvido",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Ando com coceira, dor no ouvido, secrecao, ouvido tampado recentemente",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Estou com coceira, dor no ouvido, secrecao, ouvido tampado",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Venho apresentando dor no ouvido, secrecao, ouvido tampado, febre leve",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Venho apresentando ouvido tampado, febre leve, coceira, dor no ouvido, secrecao",media,nao,Otorrino,Procure um otorrinolaringologista
+Otite,"Apresento ouvido tampado, febre leve, coceira, secrecao",media,nao,Otorrino,Procure um otorrinolaringologista
+Pneumonia,"Sinto febre alta, dor no peito há dias",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Ando com falta de ar, dor no peito, febre alta, cansaco, tosse recentemente",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Estou com cansaco, dor no peito",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Tenho sentido falta de ar, dor no peito, febre alta, tosse",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Sinto febre alta, falta de ar há dias",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Tenho sentido dor no peito, falta de ar",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Apresento cansaco, dor no peito, falta de ar, febre alta",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Ando com febre alta, cansaco, falta de ar recentemente",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Sinto tosse, cansaco, dor no peito há dias",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Venho apresentando falta de ar, tosse",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Venho apresentando dor no peito, falta de ar, cansaco, febre alta",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Venho apresentando febre alta, dor no peito, falta de ar",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Sinto febre alta, dor no peito há dias",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Tenho sentido cansaco, dor no peito, tosse, febre alta, falta de ar",alta,sim,Pneumologia,Procure atendimento médico urgente
+Pneumonia,"Venho apresentando tosse, falta de ar, cansaco",alta,sim,Pneumologia,Procure atendimento médico urgente
+Gripe,"Estou com febre, coriza, fraqueza, tosse, dor no corpo",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Venho apresentando coriza, fraqueza",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com coriza, tosse, febre, dor no corpo recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com fraqueza, tosse, dor no corpo, febre, coriza recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Apresento coriza, febre, tosse",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Apresento fraqueza, tosse",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com coriza, dor no corpo, febre, fraqueza recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com dor no corpo, fraqueza, coriza, tosse, febre recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Estou com febre, coriza, fraqueza",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Sinto coriza, febre, fraqueza, tosse, dor no corpo há dias",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com coriza, dor no corpo, febre, fraqueza, tosse recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Sinto coriza, tosse há dias",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com dor no corpo, febre recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Venho apresentando tosse, fraqueza, dor no corpo, febre",baixa,nao,Clinico Geral,Repouso e hidratação
+Gripe,"Ando com febre, tosse, coriza, fraqueza, dor no corpo recentemente",baixa,nao,Clinico Geral,Repouso e hidratação
+Covid-19,"Estou com dor no corpo, tosse seca, falta de ar, perda de olfato, febre",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Tenho sentido dor no corpo, febre",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Sinto tosse seca, dor no corpo há dias",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Estou com falta de ar, tosse seca",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Tenho sentido perda de olfato, dor no corpo, tosse seca",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Ando com falta de ar, dor no corpo, febre, perda de olfato, tosse seca recentemente",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Ando com perda de olfato, dor no corpo recentemente",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Apresento dor no corpo, perda de olfato, falta de ar",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Sinto perda de olfato, falta de ar, tosse seca há dias",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Sinto dor no corpo, tosse seca, falta de ar há dias",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Apresento febre, dor no corpo, falta de ar, tosse seca",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Estou com falta de ar, tosse seca, dor no corpo",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Apresento perda de olfato, falta de ar, dor no corpo, febre",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Estou com febre, dor no corpo",media,sim,Pneumologia,Isolamento e avaliação médica
+Covid-19,"Venho apresentando tosse seca, dor no corpo, perda de olfato",media,sim,Pneumologia,Isolamento e avaliação médica
+Sinusite,"Venho apresentando secrecao nasal, nariz entupido",media,nao,Otorrino,Consultar especialista
+Sinusite,"Apresento pressao no rosto, dor de cabeca, nariz entupido",media,nao,Otorrino,Consultar especialista
+Sinusite,"Tenho sentido pressao no rosto, dor de cabeca, dor facial, nariz entupido, secrecao nasal",media,nao,Otorrino,Consultar especialista
+Sinusite,"Sinto secrecao nasal, dor facial, pressao no rosto há dias",media,nao,Otorrino,Consultar especialista
+Sinusite,"Venho apresentando dor de cabeca, dor facial, pressao no rosto",media,nao,Otorrino,Consultar especialista
+Sinusite,"Tenho sentido nariz entupido, dor facial, pressao no rosto",media,nao,Otorrino,Consultar especialista
+Sinusite,"Venho apresentando dor facial, pressao no rosto",media,nao,Otorrino,Consultar especialista
+Sinusite,"Sinto pressao no rosto, nariz entupido há dias",media,nao,Otorrino,Consultar especialista
+Sinusite,"Ando com dor facial, nariz entupido, dor de cabeca, pressao no rosto, secrecao nasal recentemente",media,nao,Otorrino,Consultar especialista
+Sinusite,"Sinto secrecao nasal, dor de cabeca, nariz entupido, pressao no rosto, dor facial há dias",media,nao,Otorrino,Consultar especialista
+Sinusite,"Tenho sentido dor de cabeca, dor facial, pressao no rosto, nariz entupido, secrecao nasal",media,nao,Otorrino,Consultar especialista
+Sinusite,"Ando com secrecao nasal, nariz entupido, pressao no rosto, dor de cabeca, dor facial recentemente",media,nao,Otorrino,Consultar especialista
+Sinusite,"Ando com pressao no rosto, dor de cabeca recentemente",media,nao,Otorrino,Consultar especialista
+Sinusite,"Ando com pressao no rosto, secrecao nasal, nariz entupido, dor facial, dor de cabeca recentemente",media,nao,Otorrino,Consultar especialista
+Sinusite,"Estou com dor de cabeca, dor facial, nariz entupido, secrecao nasal",media,nao,Otorrino,Consultar especialista
+Rinite,"Apresento coriza, coceira no nariz, espirros, nariz entupido",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Ando com espirros, coriza, nariz entupido recentemente",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Venho apresentando nariz entupido, espirros, coceira no nariz",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Tenho sentido nariz entupido, coriza, espirros, coceira no nariz",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Venho apresentando coriza, espirros, nariz entupido, coceira no nariz",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Estou com espirros, nariz entupido, coceira no nariz, coriza",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Estou com nariz entupido, coceira no nariz, espirros, coriza",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Venho apresentando nariz entupido, espirros, coriza",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Sinto coceira no nariz, nariz entupido, coriza, espirros há dias",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Estou com coriza, coceira no nariz, espirros, nariz entupido",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Sinto nariz entupido, coceira no nariz, espirros, coriza há dias",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Sinto coceira no nariz, nariz entupido, espirros, coriza há dias",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Venho apresentando coriza, nariz entupido",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Sinto coriza, nariz entupido, coceira no nariz, espirros há dias",baixa,nao,Alergologia,Evitar alergenos
+Rinite,"Sinto espirros, coriza, nariz entupido, coceira no nariz há dias",baixa,nao,Alergologia,Evitar alergenos
+Enxaqueca,"Apresento tontura, nausea",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Estou com nausea, tontura, fotofobia, dor de cabeca forte",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Estou com dor de cabeca forte, tontura, fotofobia, nausea",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Ando com dor de cabeca forte, nausea recentemente",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Tenho sentido nausea, fotofobia",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Apresento nausea, fotofobia, dor de cabeca forte",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Venho apresentando tontura, dor de cabeca forte, nausea",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Tenho sentido dor de cabeca forte, tontura, nausea",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Sinto fotofobia, nausea, tontura há dias",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Estou com nausea, fotofobia, dor de cabeca forte",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Tenho sentido fotofobia, tontura, dor de cabeca forte, nausea",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Ando com nausea, fotofobia, tontura, dor de cabeca forte recentemente",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Venho apresentando dor de cabeca forte, fotofobia, nausea, tontura",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Ando com tontura, dor de cabeca forte, fotofobia, nausea recentemente",media,nao,Neurologia,Repouso e medicação
+Enxaqueca,"Tenho sentido dor de cabeca forte, tontura",media,nao,Neurologia,Repouso e medicação
+Depressao,"Sinto desanimo, isolamento, insônia, falta de energia há dias",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Apresento falta de energia, tristeza",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Sinto falta de energia, insônia, tristeza há dias",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Sinto isolamento, falta de energia, desanimo, insônia há dias",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Estou com falta de energia, desanimo",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Estou com isolamento, tristeza",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Ando com isolamento, falta de energia, desanimo, tristeza, insônia recentemente",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Venho apresentando tristeza, isolamento, falta de energia, desanimo",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Sinto tristeza, isolamento, insônia, falta de energia, desanimo há dias",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Estou com isolamento, desanimo, tristeza, falta de energia",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Tenho sentido desanimo, tristeza, isolamento, insônia",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Estou com isolamento, falta de energia",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Ando com desanimo, insônia, isolamento, tristeza recentemente",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Tenho sentido falta de energia, isolamento, desanimo, tristeza, insônia",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Depressao,"Ando com tristeza, falta de energia, isolamento, desanimo recentemente",alta,nao,Psiquiatria,Procurar acompanhamento psicológico
+Ansiedade,"Apresento medo, falta de ar, nervosismo, sudorese, palpitacao",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Venho apresentando medo, nervosismo",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Tenho sentido falta de ar, medo, palpitacao, sudorese, nervosismo",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Venho apresentando palpitacao, sudorese, medo, nervosismo, falta de ar",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Estou com nervosismo, palpitacao, falta de ar, medo",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Estou com falta de ar, sudorese",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Venho apresentando falta de ar, sudorese, palpitacao, medo",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Apresento falta de ar, medo, palpitacao, sudorese",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Apresento palpitacao, sudorese, falta de ar, medo, nervosismo",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Ando com sudorese, medo recentemente",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Apresento falta de ar, nervosismo, medo, palpitacao",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Sinto medo, falta de ar, nervosismo, palpitacao, sudorese há dias",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Venho apresentando sudorese, nervosismo, falta de ar",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Ando com falta de ar, nervosismo, palpitacao, medo recentemente",media,nao,Psicologia,Terapia e acompanhamento
+Ansiedade,"Tenho sentido medo, nervosismo, palpitacao",media,nao,Psicologia,Terapia e acompanhamento
+Diabetes,"Venho apresentando sede excessiva, fome excessiva",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Estou com visao turva, fome excessiva, fraqueza, urinar muito",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Tenho sentido visao turva, fome excessiva",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Sinto visao turva, fome excessiva, fraqueza, urinar muito, sede excessiva há dias",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Estou com visao turva, sede excessiva, fraqueza, fome excessiva",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Tenho sentido fraqueza, sede excessiva, fome excessiva, visao turva",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Venho apresentando visao turva, fraqueza",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Sinto fraqueza, sede excessiva, fome excessiva há dias",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Venho apresentando fome excessiva, urinar muito, visao turva, sede excessiva, fraqueza",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Apresento fraqueza, urinar muito, fome excessiva, sede excessiva, visao turva",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Venho apresentando visao turva, fraqueza, urinar muito",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Ando com fome excessiva, fraqueza recentemente",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Ando com visao turva, urinar muito, fraqueza recentemente",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Sinto sede excessiva, visao turva há dias",alta,nao,Endocrinologia,Controle glicêmico
+Diabetes,"Sinto fome excessiva, fraqueza, visao turva há dias",alta,nao,Endocrinologia,Controle glicêmico
+Hipertensao,"Tenho sentido palpitacao, visao borrada, dor de cabeca",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Ando com visao borrada, dor de cabeca, tontura, palpitacao recentemente",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Tenho sentido tontura, palpitacao, dor de cabeca",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Ando com visao borrada, tontura, palpitacao, dor de cabeca recentemente",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Ando com palpitacao, dor de cabeca, visao borrada recentemente",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Sinto dor de cabeca, palpitacao, visao borrada, tontura há dias",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Estou com dor de cabeca, visao borrada",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Venho apresentando dor de cabeca, visao borrada, palpitacao, tontura",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Estou com dor de cabeca, tontura",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Estou com palpitacao, visao borrada",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Sinto palpitacao, tontura há dias",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Tenho sentido palpitacao, dor de cabeca, visao borrada",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Sinto palpitacao, tontura, visao borrada há dias",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Sinto tontura, dor de cabeca, visao borrada há dias",media,nao,Cardiologia,Controle da pressão
+Hipertensao,"Apresento visao borrada, dor de cabeca, palpitacao, tontura",media,nao,Cardiologia,Controle da pressão
+Gastrite,"Sinto estufamento, dor no estomago há dias",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Tenho sentido dor no estomago, estufamento, nausea",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Venho apresentando queimacao, nausea, estufamento, azia, dor no estomago",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Venho apresentando queimacao, estufamento, nausea, dor no estomago",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Apresento queimacao, azia",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Sinto queimacao, azia, estufamento, nausea, dor no estomago há dias",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Venho apresentando nausea, estufamento",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Ando com azia, queimacao recentemente",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Sinto nausea, queimacao, dor no estomago, azia há dias",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Apresento dor no estomago, azia",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Venho apresentando azia, nausea",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Apresento estufamento, queimacao, azia, nausea, dor no estomago",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Estou com dor no estomago, queimacao, estufamento, nausea",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Apresento estufamento, azia, dor no estomago, nausea",media,nao,Gastroenterologia,Ajuste alimentar
+Gastrite,"Tenho sentido azia, queimacao, nausea, dor no estomago",media,nao,Gastroenterologia,Ajuste alimentar
+Refluxo,"Estou com tosse, azia",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Ando com queimacao, regurgitacao, rouquidao, tosse recentemente",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Tenho sentido rouquidao, azia, queimacao, tosse, regurgitacao",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Estou com regurgitacao, tosse, azia, rouquidao, queimacao",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Ando com azia, queimacao, rouquidao, tosse recentemente",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Estou com azia, rouquidao, queimacao, tosse, regurgitacao",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Sinto regurgitacao, queimacao, rouquidao, tosse, azia há dias",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Apresento queimacao, azia, tosse, rouquidao, regurgitacao",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Sinto rouquidao, regurgitacao, azia, tosse, queimacao há dias",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Venho apresentando rouquidao, azia",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Ando com azia, tosse, queimacao, rouquidao, regurgitacao recentemente",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Venho apresentando rouquidao, regurgitacao, queimacao, azia, tosse",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Ando com azia, tosse, rouquidao recentemente",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Estou com rouquidao, regurgitacao, azia, tosse, queimacao",media,nao,Gastroenterologia,Mudança alimentar
+Refluxo,"Estou com tosse, regurgitacao, rouquidao",media,nao,Gastroenterologia,Mudança alimentar
+ITU,"Tenho sentido dor abdominal, ardor ao urinar, urgencia urinaria, urina turva",media,nao,Urologia,Uso de antibiótico
+ITU,"Ando com urgencia urinaria, urina turva, ardor ao urinar, dor abdominal recentemente",media,nao,Urologia,Uso de antibiótico
+ITU,"Tenho sentido dor abdominal, ardor ao urinar",media,nao,Urologia,Uso de antibiótico
+ITU,"Estou com dor abdominal, urgencia urinaria, urina turva",media,nao,Urologia,Uso de antibiótico
+ITU,"Ando com dor abdominal, ardor ao urinar, urgencia urinaria, urina turva recentemente",media,nao,Urologia,Uso de antibiótico
+ITU,"Sinto ardor ao urinar, urina turva, urgencia urinaria, dor abdominal há dias",media,nao,Urologia,Uso de antibiótico
+ITU,"Tenho sentido urgencia urinaria, urina turva, dor abdominal",media,nao,Urologia,Uso de antibiótico
+ITU,"Apresento dor abdominal, urgencia urinaria, urina turva, ardor ao urinar",media,nao,Urologia,Uso de antibiótico
+ITU,"Apresento dor abdominal, ardor ao urinar, urina turva",media,nao,Urologia,Uso de antibiótico
+ITU,"Ando com ardor ao urinar, dor abdominal recentemente",media,nao,Urologia,Uso de antibiótico
+ITU,"Ando com ardor ao urinar, dor abdominal, urgencia urinaria recentemente",media,nao,Urologia,Uso de antibiótico
+ITU,"Sinto dor abdominal, urgencia urinaria, ardor ao urinar, urina turva há dias",media,nao,Urologia,Uso de antibiótico
+ITU,"Tenho sentido urina turva, dor abdominal",media,nao,Urologia,Uso de antibiótico
+ITU,"Estou com ardor ao urinar, urgencia urinaria",media,nao,Urologia,Uso de antibiótico
+ITU,"Tenho sentido urina turva, urgencia urinaria, ardor ao urinar, dor abdominal",media,nao,Urologia,Uso de antibiótico
+Calculo Renal,"Estou com dor lombar forte, nausea, vomito",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Ando com nausea, dor lombar forte, vomito recentemente",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Venho apresentando nausea, dor lombar forte, vomito",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Venho apresentando vomito, dor lombar forte, nausea",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Estou com dor lombar forte, vomito, urina com sangue",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Estou com nausea, dor lombar forte, urina com sangue",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Venho apresentando dor lombar forte, nausea",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Ando com urina com sangue, nausea, dor lombar forte recentemente",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Estou com vomito, urina com sangue",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Apresento urina com sangue, nausea",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Apresento urina com sangue, nausea",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Apresento nausea, urina com sangue",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Tenho sentido vomito, nausea, urina com sangue",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Estou com urina com sangue, dor lombar forte, nausea",alta,sim,Urologia,Emergência médica
+Calculo Renal,"Tenho sentido vomito, dor lombar forte",alta,sim,Urologia,Emergência médica

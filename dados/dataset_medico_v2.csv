@@ -1,0 +1,11 @@
+sintomas,doenca,gravidade,urgencia,especialidade,mensagem
+"dor no peito, falta de ar, suor frio","Infarto","alta","sim","Cardiologia","Procure emergência imediatamente. Pode ser grave."
+"febre alta, dor no corpo, cansaço","Dengue","media","nao","Infectologia","Hidrate-se bem e procure um médico."
+"tosse seca, febre, falta de ar","COVID-19","alta","sim","Pneumologia","Isole-se e busque atendimento médico."
+"náusea, vômito, diarreia","Gastroenterite","media","nao","Gastroenterologia","Descanse e mantenha hidratação."
+"dor de cabeça forte, sensibilidade à luz","Enxaqueca","media","nao","Neurologia","Evite luz forte e procure um neurologista."
+"dor abdominal direita, febre","Apendicite","alta","sim","Cirurgia","Vá ao hospital com urgência."
+"ardência ao urinar, dor pélvica","Infecção Urinária","media","nao","Urologia","Procure um médico para antibiótico."
+"coceira, manchas na pele","Alergia","baixa","nao","Dermatologia","Evite o agente causador e observe."
+"tristeza constante, insônia, ansiedade","Depressão","media","nao","Psiquiatria","Buscar apoio psicológico é importante."
+"falta de ar súbita, chiado no peito","Asma","alta","sim","Pneumologia","Use medicação e vá ao hospital se piorar."
